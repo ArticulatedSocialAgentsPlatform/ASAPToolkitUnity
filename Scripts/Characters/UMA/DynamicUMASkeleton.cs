@@ -23,10 +23,10 @@ using ASAPToolkit.Unity.Retargeting;
 
 namespace ASAPToolkit.Unity.Characters {
 
-    [RequireComponent(typeof(UMADynamicAvatar))]
+    [RequireComponent(typeof(UMAAvatarBase))]
     public class DynamicUMASkeleton : BasicSkeleton {
 
-        private UMADynamicAvatar uma;
+        private UMAAvatarBase uma;
 
 /*
         public AvatarMask currentAvatarMask;
@@ -77,7 +77,7 @@ namespace ASAPToolkit.Unity.Characters {
 
         protected override void Awake() {
             base.Awake();
-            uma = GetComponent<UMADynamicAvatar>();
+            uma = GetComponent<UMAAvatarBase>();
             uma.CharacterCreated.AddListener(OnCreated);
             uma.CharacterUpdated.AddListener(OnUpdated);
         }

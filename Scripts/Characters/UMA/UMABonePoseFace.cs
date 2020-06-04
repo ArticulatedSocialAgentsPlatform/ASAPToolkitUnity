@@ -22,7 +22,7 @@ using System.Collections.Generic;
 
 namespace ASAPToolkit.Unity.Characters.UMA  {
 
-    [RequireComponent(typeof(UMADynamicAvatar))]
+    [RequireComponent(typeof(UMAAvatarBase))]
     public class UMABonePoseFace : MonoBehaviour, ICharacterFace {
 
         public BonePoseTargetSet targetSet;
@@ -34,7 +34,7 @@ namespace ASAPToolkit.Unity.Characters.UMA  {
         private bool overrideMecanimNeck = false;
         private bool overrideMecanimHead = false;
 
-        private UMADynamicAvatar uma;
+        private UMAAvatarBase uma;
         [System.NonSerialized]
         public UMAData umaData;
 
@@ -52,7 +52,7 @@ namespace ASAPToolkit.Unity.Characters.UMA  {
 
 
         void Awake() {
-            uma = GetComponent<UMADynamicAvatar>();
+            uma = GetComponent<UMAAvatarBase>();
             uma.CharacterCreated.AddListener(OnCreated);
             uma.CharacterUpdated.AddListener(OnUpdated);
         }
