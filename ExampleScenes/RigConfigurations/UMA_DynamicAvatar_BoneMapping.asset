@@ -1,0 +1,337 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88c51a86a7b884329bb4aa868bd4e6ce, type: 3}
+  m_Name: COUCH_M_3BoneMapping
+  m_EditorClassIdentifier: 
+  mappings:
+  - src_bone: COUCH_M_3
+    hanim_bone: 115
+  - src_bone: Root
+    hanim_bone: 115
+  - src_bone: Global
+    hanim_bone: 115
+  - src_bone: Position
+    hanim_bone: 115
+  - src_bone: Hips
+    hanim_bone: 115
+  - src_bone: LowerBack
+    hanim_bone: 115
+  - src_bone: LowerBackAdjust
+    hanim_bone: 115
+  - src_bone: LowerBackBelly
+    hanim_bone: 115
+  - src_bone: Spine
+    hanim_bone: 115
+  - src_bone: Spine1
+    hanim_bone: 115
+  - src_bone: Neck
+    hanim_bone: 115
+  - src_bone: Head
+    hanim_bone: 115
+  - src_bone: RightEar
+    hanim_bone: 115
+  - src_bone: RightEarAdjust
+    hanim_bone: 115
+  - src_bone: RightEye
+    hanim_bone: 115
+  - src_bone: RightLowerLid
+    hanim_bone: 115
+  - src_bone: RightLowerLidAdjust
+    hanim_bone: 115
+  - src_bone: RightEyeAdjust
+    hanim_bone: 115
+  - src_bone: RightUpperLid
+    hanim_bone: 115
+  - src_bone: RightUpperLidAdjust
+    hanim_bone: 115
+  - src_bone: RightEyeGlobe
+    hanim_bone: 115
+  - src_bone: RightLipsSuperiorMiddle
+    hanim_bone: 115
+  - src_bone: RightLipsSuperiorMiddleAdjust
+    hanim_bone: 115
+  - src_bone: LeftLipsSuperiorMiddle
+    hanim_bone: 115
+  - src_bone: LeftLipsSuperiorMiddleAdjust
+    hanim_bone: 115
+  - src_bone: RightEyebrowLow
+    hanim_bone: 115
+  - src_bone: RightEyebrowLowAdjust
+    hanim_bone: 115
+  - src_bone: NoseBase
+    hanim_bone: 115
+  - src_bone: NoseBaseAdjust
+    hanim_bone: 115
+  - src_bone: RightLowCheek
+    hanim_bone: 115
+  - src_bone: RightLowCheekAdjust
+    hanim_bone: 115
+  - src_bone: LipsSuperior
+    hanim_bone: 115
+  - src_bone: LipsSuperiorAdjust
+    hanim_bone: 115
+  - src_bone: RightNose
+    hanim_bone: 115
+  - src_bone: RightNoseAdjust
+    hanim_bone: 115
+  - src_bone: HeadAdjust
+    hanim_bone: 115
+  - src_bone: LeftEyebrowMiddle
+    hanim_bone: 115
+  - src_bone: LeftEyebrowMiddleAdjust
+    hanim_bone: 115
+  - src_bone: LeftEar
+    hanim_bone: 115
+  - src_bone: LeftEarAdjust
+    hanim_bone: 115
+  - src_bone: LeftEye
+    hanim_bone: 115
+  - src_bone: LeftEyeAdjust
+    hanim_bone: 115
+  - src_bone: LeftEyeGlobe
+    hanim_bone: 115
+  - src_bone: LeftUpperLid
+    hanim_bone: 115
+  - src_bone: LeftUpperLidAdjust
+    hanim_bone: 115
+  - src_bone: LeftLowerLid
+    hanim_bone: 115
+  - src_bone: LeftLowerLidAdjust
+    hanim_bone: 115
+  - src_bone: LeftNose
+    hanim_bone: 115
+  - src_bone: LeftNoseAdjust
+    hanim_bone: 115
+  - src_bone: NoseTop
+    hanim_bone: 115
+  - src_bone: NoseTopAdjust
+    hanim_bone: 115
+  - src_bone: RightCheek
+    hanim_bone: 115
+  - src_bone: RightCheekAdjust
+    hanim_bone: 115
+  - src_bone: NoseMiddle
+    hanim_bone: 115
+  - src_bone: NoseMiddleAdjust
+    hanim_bone: 115
+  - src_bone: UpperLips
+    hanim_bone: 115
+  - src_bone: UpperLipsAdjust
+    hanim_bone: 115
+  - src_bone: LeftEyebrowUp
+    hanim_bone: 115
+  - src_bone: LeftEyebrowUpAdjust
+    hanim_bone: 115
+  - src_bone: RightEyebrowUp
+    hanim_bone: 115
+  - src_bone: RightEyebrowUpAdjust
+    hanim_bone: 115
+  - src_bone: LeftCheek
+    hanim_bone: 115
+  - src_bone: LeftCheekAdjust
+    hanim_bone: 115
+  - src_bone: Mandible
+    hanim_bone: 115
+  - src_bone: LeftLipsInferior
+    hanim_bone: 115
+  - src_bone: LeftLipsInferiorAdjust
+    hanim_bone: 115
+  - src_bone: RightLowMaxilar
+    hanim_bone: 115
+  - src_bone: RightLowMaxilarAdjust
+    hanim_bone: 115
+  - src_bone: RightLips
+    hanim_bone: 115
+  - src_bone: RightLipsAdjust
+    hanim_bone: 115
+  - src_bone: LipsInferior
+    hanim_bone: 115
+  - src_bone: LipsInferiorAdjust
+    hanim_bone: 115
+  - src_bone: MandibleAdjust
+    hanim_bone: 115
+  - src_bone: RightLipsInferior
+    hanim_bone: 115
+  - src_bone: RightLipsInferiorAdjust
+    hanim_bone: 115
+  - src_bone: Tongue01
+    hanim_bone: 115
+  - src_bone: Tongue02
+    hanim_bone: 115
+  - src_bone: LeftLips
+    hanim_bone: 115
+  - src_bone: LeftLipsAdjust
+    hanim_bone: 115
+  - src_bone: LeftLowMaxilar
+    hanim_bone: 115
+  - src_bone: LeftLowMaxilarAdjust
+    hanim_bone: 115
+  - src_bone: RightEyebrowMiddle
+    hanim_bone: 115
+  - src_bone: RightEyebrowMiddleAdjust
+    hanim_bone: 115
+  - src_bone: LeftLowCheek
+    hanim_bone: 115
+  - src_bone: LeftLowCheekAdjust
+    hanim_bone: 115
+  - src_bone: LeftEyebrowLow
+    hanim_bone: 115
+  - src_bone: LeftEyebrowLowAdjust
+    hanim_bone: 115
+  - src_bone: NeckAdjust
+    hanim_bone: 115
+  - src_bone: RightOuterBreast
+    hanim_bone: 115
+  - src_bone: RightInnerBreast
+    hanim_bone: 115
+  - src_bone: RightShoulder
+    hanim_bone: 115
+  - src_bone: RightTrapezius
+    hanim_bone: 115
+  - src_bone: RightArm
+    hanim_bone: 115
+  - src_bone: RightArmAdjust
+    hanim_bone: 115
+  - src_bone: RightForeArm
+    hanim_bone: 115
+  - src_bone: RightForeArmAdjust
+    hanim_bone: 115
+  - src_bone: RightForeArmTwist
+    hanim_bone: 115
+  - src_bone: RightForeArmTwistAdjust
+    hanim_bone: 115
+  - src_bone: RightHand
+    hanim_bone: 115
+  - src_bone: RightHandFinger03_01
+    hanim_bone: 115
+  - src_bone: RightHandFinger03_02
+    hanim_bone: 115
+  - src_bone: RightHandFinger03_03
+    hanim_bone: 115
+  - src_bone: RightHandFinger05_01
+    hanim_bone: 115
+  - src_bone: RightHandFinger05_02
+    hanim_bone: 115
+  - src_bone: RightHandFinger05_03
+    hanim_bone: 115
+  - src_bone: RightHandFinger04_01
+    hanim_bone: 115
+  - src_bone: RightHandFinger04_02
+    hanim_bone: 115
+  - src_bone: RightHandFinger04_03
+    hanim_bone: 115
+  - src_bone: RightHandFinger02_01
+    hanim_bone: 115
+  - src_bone: RightHandFinger02_02
+    hanim_bone: 115
+  - src_bone: RightHandFinger02_03
+    hanim_bone: 115
+  - src_bone: RightHandFinger01_01
+    hanim_bone: 115
+  - src_bone: RightHandFinger01_02
+    hanim_bone: 115
+  - src_bone: RightHandFinger01_03
+    hanim_bone: 115
+  - src_bone: RightShoulderAdjust
+    hanim_bone: 115
+  - src_bone: LeftOuterBreast
+    hanim_bone: 115
+  - src_bone: LeftInnerBreast
+    hanim_bone: 115
+  - src_bone: Spine1Adjust
+    hanim_bone: 115
+  - src_bone: LeftShoulder
+    hanim_bone: 115
+  - src_bone: LeftShoulderAdjust
+    hanim_bone: 115
+  - src_bone: LeftTrapezius
+    hanim_bone: 115
+  - src_bone: LeftArm
+    hanim_bone: 115
+  - src_bone: LeftForeArm
+    hanim_bone: 115
+  - src_bone: LeftHand
+    hanim_bone: 115
+  - src_bone: LeftHandFinger04_01
+    hanim_bone: 115
+  - src_bone: LeftHandFinger04_02
+    hanim_bone: 115
+  - src_bone: LeftHandFinger04_03
+    hanim_bone: 115
+  - src_bone: LeftHandFinger01_01
+    hanim_bone: 115
+  - src_bone: LeftHandFinger01_02
+    hanim_bone: 115
+  - src_bone: LeftHandFinger01_03
+    hanim_bone: 115
+  - src_bone: LeftHandFinger02_01
+    hanim_bone: 115
+  - src_bone: LeftHandFinger02_02
+    hanim_bone: 115
+  - src_bone: LeftHandFinger02_03
+    hanim_bone: 115
+  - src_bone: LeftHandFinger03_01
+    hanim_bone: 115
+  - src_bone: LeftHandFinger03_02
+    hanim_bone: 115
+  - src_bone: LeftHandFinger03_03
+    hanim_bone: 115
+  - src_bone: LeftHandFinger05_01
+    hanim_bone: 115
+  - src_bone: LeftHandFinger05_02
+    hanim_bone: 115
+  - src_bone: LeftHandFinger05_03
+    hanim_bone: 115
+  - src_bone: LeftForeArmTwist
+    hanim_bone: 115
+  - src_bone: LeftForeArmTwistAdjust
+    hanim_bone: 115
+  - src_bone: LeftForeArmAdjust
+    hanim_bone: 115
+  - src_bone: LeftArmAdjust
+    hanim_bone: 115
+  - src_bone: SpineAdjust
+    hanim_bone: 115
+  - src_bone: LeftUpLeg
+    hanim_bone: 115
+  - src_bone: LeftLeg
+    hanim_bone: 115
+  - src_bone: LeftLegAdjust
+    hanim_bone: 115
+  - src_bone: LeftFoot
+    hanim_bone: 115
+  - src_bone: LeftToeBase
+    hanim_bone: 115
+  - src_bone: l_forefoot_tip
+    hanim_bone: 115
+  - src_bone: LeftUpLegAdjust
+    hanim_bone: 115
+  - src_bone: LeftGluteus
+    hanim_bone: 115
+  - src_bone: RightUpLeg
+    hanim_bone: 115
+  - src_bone: RightGluteus
+    hanim_bone: 115
+  - src_bone: RightLeg
+    hanim_bone: 115
+  - src_bone: RightFoot
+    hanim_bone: 115
+  - src_bone: RightToeBase
+    hanim_bone: 115
+  - src_bone: r_forefoot_tip
+    hanim_bone: 115
+  - src_bone: RightLegAdjust
+    hanim_bone: 115
+  - src_bone: RightUpLegAdjust
+    hanim_bone: 115
+  - src_bone: UMARenderer
+    hanim_bone: 115
+  extraBones: []
