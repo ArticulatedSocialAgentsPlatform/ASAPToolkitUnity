@@ -9,33 +9,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 88c51a86a7b884329bb4aa868bd4e6ce, type: 3}
-  m_Name: COUCH_M_3BoneMapping
+  m_Name: UMA_DynamicAvatar_BoneMapping
   m_EditorClassIdentifier: 
   mappings:
-  - src_bone: COUCH_M_3
-    hanim_bone: 115
-  - src_bone: Root
-    hanim_bone: 115
-  - src_bone: Global
-    hanim_bone: 115
   - src_bone: Position
     hanim_bone: 115
   - src_bone: Hips
-    hanim_bone: 115
+    hanim_bone: 0
   - src_bone: LowerBack
-    hanim_bone: 115
+    hanim_bone: 14
   - src_bone: LowerBackAdjust
     hanim_bone: 115
   - src_bone: LowerBackBelly
     hanim_bone: 115
   - src_bone: Spine
-    hanim_bone: 115
+    hanim_bone: 21
   - src_bone: Spine1
-    hanim_bone: 115
+    hanim_bone: 30
   - src_bone: Neck
-    hanim_bone: 115
+    hanim_bone: 34
   - src_bone: Head
-    hanim_bone: 115
+    hanim_bone: 38
   - src_bone: RightEar
     hanim_bone: 115
   - src_bone: RightEarAdjust
@@ -53,7 +47,7 @@ MonoBehaviour:
   - src_bone: RightUpperLidAdjust
     hanim_bone: 115
   - src_bone: RightEyeGlobe
-    hanim_bone: 115
+    hanim_bone: 42
   - src_bone: RightLipsSuperiorMiddle
     hanim_bone: 115
   - src_bone: RightLipsSuperiorMiddleAdjust
@@ -97,7 +91,7 @@ MonoBehaviour:
   - src_bone: LeftEyeAdjust
     hanim_bone: 115
   - src_bone: LeftEyeGlobe
-    hanim_bone: 115
+    hanim_bone: 41
   - src_bone: LeftUpperLid
     hanim_bone: 115
   - src_bone: LeftUpperLidAdjust
@@ -193,15 +187,15 @@ MonoBehaviour:
   - src_bone: RightInnerBreast
     hanim_bone: 115
   - src_bone: RightShoulder
-    hanim_bone: 115
+    hanim_bone: 75
   - src_bone: RightTrapezius
     hanim_bone: 115
   - src_bone: RightArm
-    hanim_bone: 115
+    hanim_bone: 77
   - src_bone: RightArmAdjust
     hanim_bone: 115
   - src_bone: RightForeArm
-    hanim_bone: 115
+    hanim_bone: 78
   - src_bone: RightForeArmAdjust
     hanim_bone: 115
   - src_bone: RightForeArmTwist
@@ -209,37 +203,37 @@ MonoBehaviour:
   - src_bone: RightForeArmTwistAdjust
     hanim_bone: 115
   - src_bone: RightHand
-    hanim_bone: 115
+    hanim_bone: 79
   - src_bone: RightHandFinger03_01
-    hanim_bone: 115
+    hanim_bone: 90
   - src_bone: RightHandFinger03_02
-    hanim_bone: 115
+    hanim_bone: 91
   - src_bone: RightHandFinger03_03
-    hanim_bone: 115
+    hanim_bone: 92
   - src_bone: RightHandFinger05_01
-    hanim_bone: 115
+    hanim_bone: 80
   - src_bone: RightHandFinger05_02
-    hanim_bone: 115
+    hanim_bone: 81
   - src_bone: RightHandFinger05_03
-    hanim_bone: 115
+    hanim_bone: 82
   - src_bone: RightHandFinger04_01
-    hanim_bone: 115
+    hanim_bone: 85
   - src_bone: RightHandFinger04_02
-    hanim_bone: 115
+    hanim_bone: 86
   - src_bone: RightHandFinger04_03
-    hanim_bone: 115
+    hanim_bone: 87
   - src_bone: RightHandFinger02_01
-    hanim_bone: 115
+    hanim_bone: 95
   - src_bone: RightHandFinger02_02
-    hanim_bone: 115
+    hanim_bone: 96
   - src_bone: RightHandFinger02_03
-    hanim_bone: 115
+    hanim_bone: 97
   - src_bone: RightHandFinger01_01
-    hanim_bone: 115
+    hanim_bone: 100
   - src_bone: RightHandFinger01_02
-    hanim_bone: 115
+    hanim_bone: 101
   - src_bone: RightHandFinger01_03
-    hanim_bone: 115
+    hanim_bone: 102
   - src_bone: RightShoulderAdjust
     hanim_bone: 115
   - src_bone: LeftOuterBreast
@@ -249,47 +243,47 @@ MonoBehaviour:
   - src_bone: Spine1Adjust
     hanim_bone: 115
   - src_bone: LeftShoulder
-    hanim_bone: 115
+    hanim_bone: 46
   - src_bone: LeftShoulderAdjust
     hanim_bone: 115
   - src_bone: LeftTrapezius
     hanim_bone: 115
   - src_bone: LeftArm
-    hanim_bone: 115
+    hanim_bone: 48
   - src_bone: LeftForeArm
-    hanim_bone: 115
+    hanim_bone: 49
   - src_bone: LeftHand
-    hanim_bone: 115
+    hanim_bone: 50
   - src_bone: LeftHandFinger04_01
-    hanim_bone: 115
+    hanim_bone: 56
   - src_bone: LeftHandFinger04_02
-    hanim_bone: 115
+    hanim_bone: 57
   - src_bone: LeftHandFinger04_03
-    hanim_bone: 115
+    hanim_bone: 58
   - src_bone: LeftHandFinger01_01
-    hanim_bone: 115
+    hanim_bone: 71
   - src_bone: LeftHandFinger01_02
-    hanim_bone: 115
+    hanim_bone: 72
   - src_bone: LeftHandFinger01_03
-    hanim_bone: 115
+    hanim_bone: 73
   - src_bone: LeftHandFinger02_01
-    hanim_bone: 115
+    hanim_bone: 66
   - src_bone: LeftHandFinger02_02
-    hanim_bone: 115
+    hanim_bone: 67
   - src_bone: LeftHandFinger02_03
-    hanim_bone: 115
+    hanim_bone: 68
   - src_bone: LeftHandFinger03_01
-    hanim_bone: 115
+    hanim_bone: 61
   - src_bone: LeftHandFinger03_02
-    hanim_bone: 115
+    hanim_bone: 62
   - src_bone: LeftHandFinger03_03
-    hanim_bone: 115
+    hanim_bone: 63
   - src_bone: LeftHandFinger05_01
-    hanim_bone: 115
+    hanim_bone: 51
   - src_bone: LeftHandFinger05_02
-    hanim_bone: 115
+    hanim_bone: 52
   - src_bone: LeftHandFinger05_03
-    hanim_bone: 115
+    hanim_bone: 53
   - src_bone: LeftForeArmTwist
     hanim_bone: 115
   - src_bone: LeftForeArmTwistAdjust
@@ -301,37 +295,35 @@ MonoBehaviour:
   - src_bone: SpineAdjust
     hanim_bone: 115
   - src_bone: LeftUpLeg
-    hanim_bone: 115
+    hanim_bone: 2
   - src_bone: LeftLeg
-    hanim_bone: 115
+    hanim_bone: 3
   - src_bone: LeftLegAdjust
     hanim_bone: 115
   - src_bone: LeftFoot
-    hanim_bone: 115
+    hanim_bone: 4
   - src_bone: LeftToeBase
-    hanim_bone: 115
+    hanim_bone: 7
   - src_bone: l_forefoot_tip
-    hanim_bone: 115
+    hanim_bone: 113
   - src_bone: LeftUpLegAdjust
     hanim_bone: 115
   - src_bone: LeftGluteus
     hanim_bone: 115
   - src_bone: RightUpLeg
-    hanim_bone: 115
+    hanim_bone: 8
   - src_bone: RightGluteus
     hanim_bone: 115
   - src_bone: RightLeg
-    hanim_bone: 115
+    hanim_bone: 9
   - src_bone: RightFoot
-    hanim_bone: 115
+    hanim_bone: 10
   - src_bone: RightToeBase
-    hanim_bone: 115
+    hanim_bone: 13
   - src_bone: r_forefoot_tip
-    hanim_bone: 115
+    hanim_bone: 114
   - src_bone: RightLegAdjust
     hanim_bone: 115
   - src_bone: RightUpLegAdjust
-    hanim_bone: 115
-  - src_bone: UMARenderer
     hanim_bone: 115
   extraBones: []

@@ -481,6 +481,3 @@ MonoBehaviour:
   - src_bone: RightUpLegAdjust
     rotation: {x: 0.033350002, y: -0.0000000019219222, z: 0.0000000031158434, w: 0.99944377}
     position: {x: -0.10798966, y: 0.00000004749745, z: -0.00000020861626}
-  - src_bone: UMARenderer
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-    position: {x: 0, y: 0, z: 0}
