@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -13,22 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bmls:
   - "<bml id=\"bml0\" characterId=\"BlueGuy\" xmlns=\"http://www.bml-initiative.org/bml/bml-1.0\"
-    \n  xmlns:bmlt=\"http://hmi.ewi.utwente.nl/bmlt\" composition=\"REPLACE\">\n  <speech
-    id=\"s1\" start=\"1\">\n    <text>Hi there. I am looking at the red sphere now<sync
-    id=\"sync1\" />.</text>\n  </speech>\n</bml>"
-  - "<bml id=\"bml1\" characterId=\"\" xmlns=\"http://www.bml-initiative.org/bml/bml-1.0\"
+    \n  xmlns:bmlt=\"http://hmi.ewi.utwente.nl/bmlt\" composition=\"REPLACE\">\n 
+    <speech id=\"s1\" start=\"1\">\n    <text>Hi there. I am looking at the <sync
+    id=\"sync1\" /> red sphere now.</text>\n  </speech>\n</bml>"
+  - "<bml id=\"bml1\" characterId=\"BlueGuy\" xmlns=\"http://www.bml-initiative.org/bml/bml-1.0\"
     \n  xmlns:bmlt=\"http://hmi.ewi.utwente.nl/bmlt\">\n  <gesture id=\"g1\" lexeme=\"wave\"
     start=\"bml0:s1:start\"/>  \n</bml>"
-  - "<bml id=\"bml1\" characterId=\"\" xmlns=\"http://www.bml-initiative.org/bml/bml-1.0\"
+  - "<bml id=\"bml2\" characterId=\"BlueGuy\" xmlns=\"http://www.bml-initiative.org/bml/bml-1.0\"
     \n  xmlns:bmlt=\"http://hmi.ewi.utwente.nl/bmlt\">\n  <gaze id=\"gaze1\" bmlt:dynamic=\"true\"
     ready=\"bml0:s1:sync1\" relax=\"bml0:s1:sync1+2\" influence=\"NECK\" target=\"redsphere\"/>\n</bml>"
-  - "<bml id=\"bml2\" characterId=\"BlueGuy\" xmlns=\"http://www.bml-initiative.org/bml/bml-1.0\"
-    \n  xmlns:bmlt=\"http://hmi.ewi.utwente.nl/bmlt\">\n  <speech id=\"s1\" start=\"bml0:s1:end+2\">\n
-    \   <text>Oh, look<sync id=\"sync1\" />, a blue box!</text>\n  </speech>\n</bml>"
   - "<bml id=\"bml3\" characterId=\"BlueGuy\" xmlns=\"http://www.bml-initiative.org/bml/bml-1.0\"
-    \n  xmlns:bmlt=\"http://hmi.ewi.utwente.nl/bmlt\">\n  <gaze id=\"gaze1\" bmlt:dynamic=\"true\"
-    ready=\"bml2:s1:sync1\" relax=\"bml0:s1:end+5\" influence=\"NECK\" target=\"bluebox\"/>\n</bml>"
+    \n  xmlns:bmlt=\"http://hmi.ewi.utwente.nl/bmlt\">\n  <speech id=\"s1\" start=\"bml0:s1:end+2\">\n  
+    <text>Oh, look<sync id=\"sync1\" />, a blue box!</text>\n  </speech>\n</bml>"
   - "<bml id=\"bml4\" characterId=\"BlueGuy\" xmlns=\"http://www.bml-initiative.org/bml/bml-1.0\"
+    \n  xmlns:bmlt=\"http://hmi.ewi.utwente.nl/bmlt\">\n  <gaze id=\"gaze1\" bmlt:dynamic=\"true\"
+    ready=\"bml3:s1:sync1\" relax=\"bml3:s1:end+2\" influence=\"NECK\" target=\"bluebox\"/>\n</bml>"
+  - "<bml id=\"bml5\" characterId=\"BlueGuy\" xmlns=\"http://www.bml-initiative.org/bml/bml-1.0\"
     \n  xmlns:bmlt=\"http://hmi.ewi.utwente.nl/bmlt\">\n<pointing id=\"p1\" target=\"bluebox\"
-    mode=\"RIGHT_HAND\" start=\"bml2:s1:start\" ready=\"bml2:s1:sync1\" relax=\"bml2:s1:end\"/>
-    \   \n</bml>"
+    mode=\"RIGHT_HAND\" start=\"bml3:s1:start\" ready=\"bml3:s1:sync1\" relax=\"bml3:s1:end\"/>   
+    \n</bml>"
